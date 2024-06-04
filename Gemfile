@@ -71,4 +71,8 @@ group :test do
   gem "webdrivers"
 end
 
+  gem "debug", platforms: %i[ mri mingw x64_mingw ]
+
+gem 'pry-rails'
 gem 'devise'
+
